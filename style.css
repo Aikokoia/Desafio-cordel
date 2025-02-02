@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    margin: -20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+header h1 {
+    font-size: 4em;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
