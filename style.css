@@ -1,12 +1,15 @@
 @charset "UTF-8";
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-color: black;
     color: white;
     padding: 10px;
-    margin: auto;
     text-align: center;
-    margin: -20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
 
@@ -20,4 +23,72 @@ header a:hover {
 header a {
     text-decoration: none;
     color: white;
+}
+
+main {
+    margin-top: 40px;
+}
+
+main div#letras {
+    color: white;
+    background-color: black ;
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px 0px 20px 0px ;
+    height: 700px;
+    
+}
+
+main div#letras p {
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 10px;
+}
+
+main div#cartas {
+    color: white;
+    background-color: black ;
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px 0px 20px 0px ;
+    height: 700px;
+}
+
+main div#cartas p {
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 10px;
+}
+
+main p {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    max-width: 400px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 20px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
 }
